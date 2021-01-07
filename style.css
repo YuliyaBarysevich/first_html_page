@@ -36,6 +36,12 @@ a {
 body {
     background-color:#def1f5
 }
+
+aside {
+    text-align: center;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
  
 
 p {

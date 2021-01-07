@@ -1,3 +1,3 @@
-let usrName = prompt('Please Enter Your Name:');
+let userName = prompt('Please Enter Your Name:');
 
-document.write(userName);
+document.write('Welcome, ' + userName + '!');
