@@ -1,10 +1,15 @@
 
 function askUserName() {
+
 let userName = prompt('Please Enter Your Name:');
 
 document.write('Welcome, ' + userName + '!');
 
+return userName;
+
 };
+
+
 
 function gettingNewsLetters() {
    let answer = prompt('Do you want to sign up for newsletters? Please enter YES or NO'); 
@@ -24,7 +29,7 @@ let today = new Date();
 let hourNow = today.getHours();
 let workHours;
 
-if (hourNow >= 9 || hourNow < 18) {
+if (hourNow >= 9 && hourNow < 18) {
     workHours = 'We are open! Contact Us.'
 } else {
     workHours = 'Sorry! We are closed now. Contact Us Tomorrow.'
@@ -32,3 +37,5 @@ if (hourNow >= 9 || hourNow < 18) {
 
 document.write('<h3>' + workHours + '</h3>');
 };
+
+
